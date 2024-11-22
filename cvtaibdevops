@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Taib El Ghouari</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            background: #e4e4e4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Taib El Ghouari</h1>
+        <div class="contact-info">
+            <p>👨‍💻 Ingénieur de Production DevOps</p>
+            <p>📍 Maurepas 78310</p>
+            <p>✉️ taib.elghouari@gmail.com</p>
+            <p>📞 06 65 06 21 69</p>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Résumé Professionnel</h2>
+            <p>Ingénieur de Production DevOps avec plus de 10 ans d’expertise en administration de serveurs web, applications critiques et exploitation Control-M. Spécialisé dans l’optimisation des performances, la supervision et l’automatisation d’environnements IT complexes pour garantir une disponibilité des services à 99,9 %.</p>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Compétences Clés</h2>
+            <ul>
+                <li><strong>DevOps et Automatisation :</strong> OpenShift, Kubernetes, Docker, Jenkins, GitLab</li>
+                <li><strong>Exploitation et Administration :</strong> Control-M, TWS, Dollar Universe</li>
+                <li><strong>Bases de Données :</strong> PostgreSQL, MariaDB, Oracle</li>
+                <li><strong>Cloud et Virtualisation :</strong> AWS, VMware</li>
+                <li><strong>Systèmes d’Exploitation :</strong> Windows Server, Red Hat, CentOS</li>
+                <li><strong>Outils de Supervision :</strong> Splunk, Grafana</li>
+                <li><strong>Langages de Script :</strong> Bash</li>
+                <li><strong>Serveurs Web et d’Application :</strong> JBoss, WebSphere, Apache Tomcat, GlassFish</li>
+                <li><strong>Outils de Test :</strong> Postman, RabbitMQ</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>💼 Expériences Professionnelles</h2>
+            <h3>Ingénieur de Production DevOps</h3>
+            <p><strong>BRED (Secteur Bancaire)</strong><br>Décembre 2023 - Présent</p>
+            <ul>
+                <li>Création de chaînes et planification des traitements critiques via Control-M, garantissant la continuité des services 24/7.</li>
+                <li>Administration de la Gateway Axway : ouverture de flux, création de partenaires pour échanges sécurisés et automatisation des transferts.</li>
+                <li>Optimisation des performances des serveurs d’applications, réduisant le temps de réponse de 15 %.</li>
+                <li>Surveillance proactive des logs via Splunk, diminuant les incidents applicatifs de 20 %.</li>
+                <li>Développement de scripts Bash pour automatiser les tâches récurrentes, réduisant le temps d’intervention de 30 %.</li>
+                <li>Mise à jour des environnements applicatifs pour intégrer les correctifs de sécurité et garantir la conformité.</li>
+                <li>Supervision et configuration des queues RabbitMQ pour des échanges fiables et rapides entre applications.</li>
+                <li>Documentation des procédures de maintenance et d’automatisation pour accélérer l’intégration des nouveaux collaborateurs.</li>
+            </ul>
+
+            <h3>Ingénieur de Production DevOps</h3>
+            <p><strong>Agirc-Arrco (Retraite Complémentaire)</strong><br>Septembre 2022 - Septembre 2023</p>
+            <ul>
+                <li>Création et gestion de chaînes critiques via TWS, avec une amélioration de l’efficacité opérationnelle de 25 %.</li>
+                <li>Administration avancée de serveurs d’applications JBoss, WebSphere et Apache Tomcat, assurant une disponibilité à 99,9 %.</li>
+                <li>Mise en place de scripts d’automatisation pour déploiements applicatifs, réduisant les erreurs humaines.</li>
+                <li>Intégration des nouvelles versions applicatives en collaboration avec les équipes de développement.</li>
+                <li>Analyse et résolution des incidents critiques dans les environnements de production sous contrainte de SLA stricts.</li>
+                <li>Configuration des environnements de pré-production pour simuler les performances et la stabilité avant mise en production.</li>
+                <li>Formation des équipes internes sur l’utilisation de TWS et les bonnes pratiques DevOps.</li>
+            </ul>
+
+            <h3>Ingénieur de Production et Intégrateur</h3>
+            <p><strong>EDF (Secteur Énergie)</strong><br>Juillet 2017 - Juin 2022</p>
+            <ul>
+                <li>Planification et optimisation de chaînes via Control-M dans des environnements critiques.</li>
+                <li>Mise en œuvre de plans de continuité garantissant la résilience des applications.</li>
+                <li>Automatisation des sauvegardes/restaurations via des scripts Bash, intégrés aux chaînes Control-M.</li>
+                <li>Administration des serveurs Apache HTTP Server, incluant la configuration avancée pour les applications critiques.</li>
+                <li>Mise en place de politiques de rotation des logs pour optimiser l’utilisation des ressources serveurs.</li>
+               
+::contentReference[oaicite:0]{index=0}
+ 
