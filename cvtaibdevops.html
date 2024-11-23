@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Taib El Ghouari</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,92 +23,170 @@
         h1, h2, h3 {
             color: #333;
         }
-        .contact-info {
-            margin-bottom: 20px;
-        }
-        .contact-info p {
-            margin: 5px 0;
-        }
         .section {
             margin-bottom: 20px;
         }
-        .section ul {
-            list-style-type: none;
+        .section i {
+            color: #007BFF;
+            margin-right: 10px;
+        }
+        .contact-info, .skills, .languages {
+            list-style: none;
             padding: 0;
         }
-        .section ul li {
-            background: #e4e4e4;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
+        .contact-info li, .skills li, .languages li {
+            margin-bottom: 10px;
+        }
+        .experience, .education {
+            margin-bottom: 20px;
+        }
+        .experience h3, .education h3 {
+            margin-bottom: 5px;
+        }
+        .experience p, .education p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Taib El Ghouari</h1>
-        <div class="contact-info">
-            <p>👨‍💻 Ingénieur de Production DevOps</p>
-            <p>📍 Maurepas 78310</p>
-            <p>✉️ taib.elghouari@gmail.com</p>
-            <p>📞 06 65 06 21 69</p>
+        <header>
+            <h1>Taib El Ghouari</h1>
+            <p>Ingénieur de Production DevOps</p>
+        </header>
+
+        <section class="section">
+            <h2><i class="fas fa-user"></i> Informations Personnelles</h2>
+            <ul class="contact-info">
+                <li><i class="fas fa-map-marker-alt"></i> Maurepas 78310</li>
+                <li><i class="fas fa-envelope"></i> taib.elghouari@gmail.com</li>
+                <li><i class="fas fa-phone"></i> 06 65 06 21 69</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-briefcase"></i> Résumé Professionnel</h2>
+            <p>Ingénieur de Production DevOps avec plus de 10 ans d’expérience en administration de serveurs web, gestion d’applications critiques et exploitation de Control-M. Spécialisé dans l’optimisation des performances, la supervision et l’automatisation des environnements IT pour assurer une haute disponibilité des services.</p>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-cogs"></i> Compétences Clés</h2>
+            <ul class="skills">
+                <li><i class="fas fa-tools"></i> DevOps et Automatisation : OpenShift, Kubernetes, Docker, Jenkins, GitLab</li>
+                <li><i class="fas fa-server"></i> Exploitation et Administration : Control-M, TWS (Tivoli Workload Scheduler), Dollar Universe</li>
+                <li><i class="fas fa-database"></i> Bases de Données : PostgreSQL, MariaDB, Oracle</li>
+                <li><i class="fas fa-cloud"></i> Cloud et Virtualisation : AWS, VMware</li>
+                <li><i class="fas fa-desktop"></i> Systèmes d’Exploitation : Windows Server, Red Hat, CentOS</li>
+                <li><i class="fas fa-chart-line"></i> Outils de Supervision : Splunk, Grafana</li>
+                <li><i class="fas fa-code"></i> Langages de Script : Bash</li>
+                <li><i class="fas fa-globe"></i> Serveurs Web et d’Application : JBoss, WebSphere, Apache Tomcat, GlassFish</li>
+                <li><i class="fas fa-vial"></i> Outils de Test et Gestion de Messages : Postman, RabbitMQ</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-briefcase"></i> Expériences Professionnelles</h2>
+
+            <div class="experience">
+                <h3><i class="fas fa-building"></i> BRED (Secteur Bancaire)</h3>
+                <p><i class="fas fa-calendar-alt"></i> Décembre 2023 - Présent</p>
+                <ul>
+                    <li>Création de chaînes et planification des traitements via Control-M pour garantir la continuité des services critiques.</li>
+                    <li>Administration et exploitation de la Gateway Axway, incluant l’ouverture de flux, la création de partenaires pour les échanges de données sécurisés et l’automatisation des transferts.</li>
+                    <li>Utilisation de Postman pour analyser les API des stockages et tester les flux d'échange entre applications.</li>
+                    <li>Gestion des messages entre applications à l’aide de RabbitMQ, incluant la configuration des queues et l’optimisation des échanges de messages.</li>
+                    <li>Gestion des certificats SSL/TLS pour les serveurs web et d'applications critiques.</li>
+                    <li>Optimisation des performances des serveurs d’application, réduisant le temps de réponse de 15 %.</li>
+                    <li>Développement de scripts Bash pour automatiser les tâches récurrentes, notamment les redémarrages planifiés des serveurs d’applications.</li>
+                    <li>Surveillance proactive des logs d’applications via Splunk pour anticiper et résoudre les incidents.</li>
+                </ul>
+                <p><strong>Environnement Technique :</strong> Control-M, Axway Gateway, RabbitMQ, Postman, Splunk, Linux (Red Hat), Bash, Oracle</p>
+            </div>
+
+            <div class="experience">
+                <h3><i class="fas fa-building"></i> Agirc-Arrco (Secteur Retraite Complémentaire)</h3>
+                <p><i class="fas fa-calendar-alt"></i> Septembre 2022 - Septembre 2023</p>
+                <ul>
+                    <li>Création et gestion de chaînes de traitements via TWS (Tivoli Workload Scheduler), incluant la planification et l'optimisation des jobs critiques.</li>
+                    <li>Gestion et administration des serveurs d’applications JBoss, WebSphere, et Apache Tomcat pour assurer la disponibilité des applications critiques.</li>
+                                    <li>Mise en place de scripts d'automatisation pour simplifier les déploiements applicatifs et réduire les erreurs humaines.</li>
+                <li>Configuration avancée des serveurs web pour répondre aux exigences de sécurité et de performance.</li>
+                <li>Collaboration avec les équipes de développement pour intégrer les changements applicatifs en suivant les meilleures pratiques DevOps.</li>
+            </ul>
+            <p><strong>Environnement Technique :</strong> TWS, JBoss, WebSphere, Tomcat, Splunk, Grafana, Bash, PostgreSQL</p>
         </div>
 
-        <div class="section">
-            <h2>🎯 Résumé Professionnel</h2>
-            <p>Ingénieur de Production DevOps avec plus de 10 ans d’expertise en administration de serveurs web, applications critiques et exploitation Control-M. Spécialisé dans l’optimisation des performances, la supervision et l’automatisation d’environnements IT complexes pour garantir une disponibilité des services à 99,9 %.</p>
+        <div class="experience">
+            <h3><i class="fas fa-building"></i> EDF (Secteur Énergie)</h3>
+            <p><i class="fas fa-calendar-alt"></i> Juillet 2017 - Juin 2022</p>
+            <ul>
+                <li>Création de chaînes et planification de traitements dans des environnements critiques via Control-M.</li>
+                <li>Mise en œuvre et maintenance des serveurs d’application GlassFish et WebSphere, garantissant leur disponibilité 24/7.</li>
+                <li>Automatisation des sauvegardes et des restaurations via des scripts Bash, intégrés aux chaînes Control-M.</li>
+                <li>Configuration des serveurs Apache HTTP Server pour gérer des applications critiques, y compris les règles de routage et les modules de sécurité.</li>
+                <li>Développement de plans de continuité pour les applications déployées sur des serveurs virtuels et physiques.</li>
+                <li>Participation aux audits de conformité pour garantir le respect des normes IT internes.</li>
+            </ul>
+            <p><strong>Environnement Technique :</strong> Control-M, GlassFish, WebSphere, Apache HTTP Server, Linux, Bash, Oracle</p>
         </div>
 
-        <div class="section">
-            <h2>🛠️ Compétences Clés</h2>
+        <div class="experience">
+            <h3><i class="fas fa-building"></i> Carrefour (Grande Distribution)</h3>
+            <p><i class="fas fa-calendar-alt"></i> Mai 2015 - Juin 2017</p>
             <ul>
-                <li><strong>DevOps et Automatisation :</strong> OpenShift, Kubernetes, Docker, Jenkins, GitLab</li>
-                <li><strong>Exploitation et Administration :</strong> Control-M, TWS, Dollar Universe</li>
-                <li><strong>Bases de Données :</strong> PostgreSQL, MariaDB, Oracle</li>
-                <li><strong>Cloud et Virtualisation :</strong> AWS, VMware</li>
-                <li><strong>Systèmes d’Exploitation :</strong> Windows Server, Red Hat, CentOS</li>
-                <li><strong>Outils de Supervision :</strong> Splunk, Grafana</li>
-                <li><strong>Langages de Script :</strong> Bash</li>
-                <li><strong>Serveurs Web et d’Application :</strong> JBoss, WebSphere, Apache Tomcat, GlassFish</li>
-                <li><strong>Outils de Test :</strong> Postman, RabbitMQ</li>
+                <li>Création et gestion de chaînes de traitement avec Dollar Universe (DollarU), incluant la planification et la surveillance des flux critiques.</li>
+                <li>Administration des serveurs JBoss et Apache Tomcat pour assurer la stabilité des systèmes de gestion logistique.</li>
+                <li>Configuration des environnements web et mise en place de certificats SSL.</li>
+                <li>Collaboration avec les équipes pour l’intégration de nouvelles fonctionnalités et la résolution des incidents applicatifs.</li>
             </ul>
+            <p><strong>Environnement Technique :</strong> Dollar Universe, JBoss, Apache Tomcat, Windows Server, Bash, MariaDB</p>
         </div>
 
-        <div class="section">
-            <h2>💼 Expériences Professionnelles</h2>
-            <h3>Ingénieur de Production DevOps</h3>
-            <p><strong>BRED (Secteur Bancaire)</strong><br>Décembre 2023 - Présent</p>
+        <div class="experience">
+            <h3><i class="fas fa-building"></i> Caisse des Dépôts et Consignations (CDC)</h3>
+            <p><i class="fas fa-calendar-alt"></i> Janvier 2013 - Avril 2015</p>
             <ul>
-                <li>Création de chaînes et planification des traitements critiques via Control-M, garantissant la continuité des services 24/7.</li>
-                <li>Administration de la Gateway Axway : ouverture de flux, création de partenaires pour échanges sécurisés et automatisation des transferts.</li>
-                <li>Optimisation des performances des serveurs d’applications, réduisant le temps de réponse de 15 %.</li>
-                <li>Surveillance proactive des logs via Splunk, diminuant les incidents applicatifs de 20 %.</li>
-                <li>Développement de scripts Bash pour automatiser les tâches récurrentes, réduisant le temps d’intervention de 30 %.</li>
-                <li>Mise à jour des environnements applicatifs pour intégrer les correctifs de sécurité et garantir la conformité.</li>
-                <li>Supervision et configuration des queues RabbitMQ pour des échanges fiables et rapides entre applications.</li>
-                <li>Documentation des procédures de maintenance et d’automatisation pour accélérer l’intégration des nouveaux collaborateurs.</li>
+                <li>Gestion des environnements de production, incluant la supervision et le support des applications critiques.</li>
+                <li>Mise en place de procédures de déploiement et d’automatisation des tâches récurrentes.</li>
+                <li>Coordination avec les équipes de développement pour assurer une transition fluide des applications vers la production.</li>
+                <li>Surveillance des performances des systèmes et optimisation des ressources pour garantir une disponibilité maximale.</li>
             </ul>
+            <p><strong>Environnement Technique :</strong> Control-M, WebSphere, Linux, Bash, Oracle</p>
+        </div>
+    </section>
 
-            <h3>Ingénieur de Production DevOps</h3>
-            <p><strong>Agirc-Arrco (Retraite Complémentaire)</strong><br>Septembre 2022 - Septembre 2023</p>
+    <section class="section">
+        <h2><i class="fas fa-graduation-cap"></i> Formation</h2>
+        <div class="education">
+            <h3><i class="fas fa-university"></i> Université de Paris</h3>
+            <p><i class="fas fa-calendar-alt"></i> 2012</p>
+            <p>Master en Informatique</p>
+        </div>
+        <div class="education">
+            <h3><i class="fas fa-certificate"></i> Certifications</h3>
             <ul>
-                <li>Création et gestion de chaînes critiques via TWS, avec une amélioration de l’efficacité opérationnelle de 25 %.</li>
-                <li>Administration avancée de serveurs d’applications JBoss, WebSphere et Apache Tomcat, assurant une disponibilité à 99,9 %.</li>
-                <li>Mise en place de scripts d’automatisation pour déploiements applicatifs, réduisant les erreurs humaines.</li>
-                <li>Intégration des nouvelles versions applicatives en collaboration avec les équipes de développement.</li>
-                <li>Analyse et résolution des incidents critiques dans les environnements de production sous contrainte de SLA stricts.</li>
-                <li>Configuration des environnements de pré-production pour simuler les performances et la stabilité avant mise en production.</li>
-                <li>Formation des équipes internes sur l’utilisation de TWS et les bonnes pratiques DevOps.</li>
+                <li>AWS Certified Solutions Architect</li>
+                <li>Red Hat Certified Engineer (RHCE)</li>
+                <li>ITIL Foundation</li>
             </ul>
+        </div>
+    </section>
 
-            <h3>Ingénieur de Production et Intégrateur</h3>
-            <p><strong>EDF (Secteur Énergie)</strong><br>Juillet 2017 - Juin 2022</p>
-            <ul>
-                <li>Planification et optimisation de chaînes via Control-M dans des environnements critiques.</li>
-                <li>Mise en œuvre de plans de continuité garantissant la résilience des applications.</li>
-                <li>Automatisation des sauvegardes/restaurations via des scripts Bash, intégrés aux chaînes Control-M.</li>
-                <li>Administration des serveurs Apache HTTP Server, incluant la configuration avancée pour les applications critiques.</li>
-                <li>Mise en place de politiques de rotation des logs pour optimiser l’utilisation des ressources serveurs.</li>
-               
-::contentReference[oaicite:0]{index=0}
- 
+    <section class="section">
+        <h2><i class="fas fa-language"></i> Langues</h2>
+        <ul class="languages">
+            <li><i class="fas fa-comment"></i> Français : Langue maternelle</li>
+            <li><i class="fas fa-comment"></i> Anglais : Courant</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2><i class="fas fa-project-diagram"></i> Projets Notables</h2>
+        <ul>
+            <li><strong>Automatisation des Déploiements :</strong> Mise en place d’une pipeline CI/CD avec Jenkins et GitLab, réduisant le temps de déploiement de 30 %.</li>
+            <li><strong>Migration vers le Cloud :</strong> Participation à la migration de plusieurs applications critiques vers AWS, améliorant la scalabilité et réduisant les coûts d’infrastructure.</li>
+        </ul>
+    </section>
+</div>
+</body>
+</html>
